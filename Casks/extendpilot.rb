@@ -1,6 +1,6 @@
 cask "extendpilot" do
   version "1.0"
-  sha256 "516d7c8f5c842c2af8585653db847adabefb60358db3ffd25fc2a4e3131e8f9f"
+  sha256 "8062f790285b6bb4dba0e59f004028d974adafaba5f66f0f9d71848cbadf7d92"
 
   url "https://extendpilot.com/ExtendPilot-#{version}.dmg"
   name "ExtendPilot"
