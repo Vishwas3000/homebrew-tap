@@ -1,8 +1,8 @@
 class JpegAiApple < Formula
   desc "Experimental native Apple JPEG AI encoder and decoder"
   homepage "https://github.com/Vishwas3000/ai_compression"
-  url "https://github.com/Vishwas3000/ai_compression/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "dfcde164f6d91357b7429cb0b71d976d96c17f2c82762ada818cc5bc101a9b32"
+  url "https://github.com/Vishwas3000/ai_compression/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "3019c94f126d6089b51a7031475f5c07c71193378eb130bc770dbb1afd42018d"
   license all_of: ["MIT", "BSD-3-Clause"]
 
   depends_on macos: :ventura
