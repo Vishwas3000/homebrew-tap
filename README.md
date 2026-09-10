@@ -1,9 +1,19 @@
-# ExtendPilot's Homebrew tap
+# Vishwas3000's Homebrew tap
 
-One cask lives here. The app itself is closed source; this repository holds
-nothing but the recipe Homebrew reads to fetch and verify a signed build.
+This repository holds the recipes Homebrew reads to fetch and verify releases.
 
-## Install
+## JPEG AI for Apple Silicon
+
+```sh
+brew install vishwas3000/tap/jpeg-ai-apple
+jpeg-ai encode input.png output.bits --preset 75
+jpeg-ai decode output.bits reconstructed.png
+```
+
+This is an experimental native Core ML simple-profile codec. Its source lives
+in [ai_compression](https://github.com/Vishwas3000/ai_compression).
+
+## ExtendPilot
 
 ```sh
 brew tap vishwas3000/tap
